@@ -1,0 +1,31 @@
+.documentPage {
+  min-height: 70vh;
+  width:100%;
+  color:var(--docTxt);
+  overflow: auto;
+  scrollbar-width:thin;
+}
+
+.documentPage h2{
+  text-align: left;
+  color:var(--docH2);
+  display: inline;
+  width:100%;
+}
+
+input[type=text]#docSearch {
+  margin:40px 0 50px 0;
+height: 40px;
+width:600px;
+max-width: 100%;
+border-radius: 4px;
+font-size: 1.6em;
+padding:6px 10px;
+background-color: var(--docTxtBox);
+border: 1px solid transparent;
+}
+
+input[type=text]#docSearch::placeholder {
+  color: var(--searchTxtBoxPlaceholder);
+  font-size: 16px;
+}

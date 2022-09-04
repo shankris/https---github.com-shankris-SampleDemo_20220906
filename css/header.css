@@ -1,0 +1,33 @@
+
+.headerContent {
+  max-width:var(--pageWidth);
+  width: var(--pageMaxWidth);
+  margin:0 auto;
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  line-height: 45px;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 10px;
+height: 60px;
+}
+
+.logo .first {
+  font-weight: 400;
+  display: inline-block;
+  letter-spacing: -1px;
+  color:aliceblue;
+}
+
+.logo .last {
+  font-weight: 200;
+  display: inline-block;
+  color: rgb(207, 207, 207);
+  letter-spacing: 2px;
+}

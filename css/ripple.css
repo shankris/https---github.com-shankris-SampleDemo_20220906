@@ -1,0 +1,59 @@
+
+    [data-animation] {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ripple {
+      width: 2px;
+      height: 2px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      -webkit-animation: rippleEffect 0.5s ease-in-out;
+      animation: rippleEffect 0.5s ease-in-out;
+    }
+
+    @-webkit-keyframes rippleEffect {
+      0% {
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(var(--scale));
+      }
+    }
+
+    @keyframes rippleEffect {
+      0% {
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(var(--scale));
+      }
+    }
+
+/* Temp for testing - Delete this */
+    ul.test {
+      padding: 20px;
+      display: block;
+    }
+
+    .menuList {
+      position: relative;
+      list-style: none;
+      height: 140px;
+      width: 390px;
+      display: inline-block;
+      background-color: #8d8c8c;
+      color:#fff;
+      margin: 20px;
+      padding: 10px;
+      user-select: none;
+      cursor: pointer;
+      border-radius: 4px;
+      text-align: left;
+    }

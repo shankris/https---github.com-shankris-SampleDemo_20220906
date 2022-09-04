@@ -1,0 +1,7 @@
+.vdoPage {
+  width:100%;
+}
+
+.vdoPage h2 {
+    color:var(--vdoTxt);
+}
