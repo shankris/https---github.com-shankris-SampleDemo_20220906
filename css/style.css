@@ -775,3 +775,7 @@ Hero Slider - by CodyHouse.co
 .no-js .cd-hero__nav {
   display: none;
 }
+
+.metroMenuContainer {
+  width: 100vw;
+}
